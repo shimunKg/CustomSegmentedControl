@@ -5,9 +5,6 @@
 //  Created by Nikola Jovanovic Simunic on 19.12.23..
 //
 import SwiftUI
-protocol HasTitle {
-    var title: String { get }
-}
 
 enum CustomSegmentedControl: String, CaseIterable, HasTitle {
     case home
@@ -50,7 +47,9 @@ struct CustomSegmentedControlView<T>: View where T: Hashable, T: HasTitle {
                                 .onTapGesture(perform: {
                                     withAnimation(config.animation) {
                                         selection = option
-                                        scrollReader.scrollTo(option, anchor: selection == options.last ? .trailing : .center)
+                                        scrollReader.scrollTo(
+                                            option, anchor: selection == options.last ? .trailing : .center
+                                        )
                                     }
                                 })
                                 .padding(.horizontal, selection == option ? 25 : 8)

@@ -13,6 +13,7 @@
 		8F10CC8B2B31A4D10008C3AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F10CC8A2B31A4D10008C3AD /* Preview Assets.xcassets */; };
 		8F10CC922B31A93C0008C3AD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F10CC912B31A93C0008C3AD /* MainView.swift */; };
 		8F10CC952B31CFE60008C3AD /* CustomSegmentedControlConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F10CC942B31CFE60008C3AD /* CustomSegmentedControlConfig.swift */; };
+		8F10CC972B3379120008C3AD /* HasTitleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F10CC962B3379120008C3AD /* HasTitleProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8F10CC8A2B31A4D10008C3AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8F10CC912B31A93C0008C3AD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8F10CC942B31CFE60008C3AD /* CustomSegmentedControlConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControlConfig.swift; sourceTree = "<group>"; };
+		8F10CC962B3379120008C3AD /* HasTitleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasTitleProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8F10CC892B31A4D10008C3AD /* Preview Content */,
 				8F10CC912B31A93C0008C3AD /* MainView.swift */,
 				8F10CC942B31CFE60008C3AD /* CustomSegmentedControlConfig.swift */,
+				8F10CC962B3379120008C3AD /* HasTitleProtocol.swift */,
 			);
 			path = customSegmentedControl;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F10CC852B31A4CF0008C3AD /* CustomSegmentedControlView.swift in Sources */,
+				8F10CC972B3379120008C3AD /* HasTitleProtocol.swift in Sources */,
 				8F10CC922B31A93C0008C3AD /* MainView.swift in Sources */,
 				8F10CC832B31A4CF0008C3AD /* CustomSegmentedControlApp.swift in Sources */,
 				8F10CC952B31CFE60008C3AD /* CustomSegmentedControlConfig.swift in Sources */,
