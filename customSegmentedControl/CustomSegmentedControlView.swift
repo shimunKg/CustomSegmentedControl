@@ -6,19 +6,6 @@
 //
 import SwiftUI
 
-enum CustomSegmentedControl: String, CaseIterable, HasTitle {
-    case home
-    case profile
-    case settings
-    case something
-    case additionallllfkiflll
-  
-    
-    var title: String {
-        return self.rawValue.capitalized
-    }
-}
-
 struct CustomSegmentedControlView<T>: View where T: Hashable, T: HasTitle {
     
     @Namespace var namespace

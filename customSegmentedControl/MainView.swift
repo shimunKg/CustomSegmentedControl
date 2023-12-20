@@ -12,7 +12,7 @@ struct MainView: View {
     var body: some View {
         CustomSegmentedControlView(
             selection: $selectedValue,
-            options: CustomSegmentedControl.allCases,
+            options: [.home, .filtered, .profile, .settings, .views(numerOfViews: 52)],
             config: CustomSegmentedControlConfig(
                 selectedColor: .orange,
                 deselectedColor: .gray,
