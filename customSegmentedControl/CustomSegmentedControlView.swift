@@ -47,6 +47,7 @@ struct CustomSegmentedControlView<T>: View where T: Hashable, T: HasTitle {
                 }
                 .padding(.horizontal, 10)
             }
+            .scrollBounceBehavior(.basedOnSize, axes: .horizontal)
         }
     }
 }

@@ -16,7 +16,7 @@ struct MainView: View {
             config: CustomSegmentedControlConfig(
                 selectedColor: .orange,
                 deselectedColor: .gray,
-                animation: Animation.spring(dampingFraction: 0.7),
+                animation: Animation.bouncy,
                 spacingBetweenElements: 10,
                 stackHeight: 40,
                 cornerRadius: 16
